@@ -134,7 +134,7 @@ p \left( r_{ji}, \theta_{ji}, \mu_j | n_{ji}; \mu_0, M_0, M_j \right) \\ = p \le
  %  
   p\left( \mu_j; \mu_0, M_0 \right)  &= \dfrac{\mu_j^{M_0\mu_0 -1} (1 - \mu_j)^{M_0 ( 1 - \mu_0) - 1}}{\textbf{B}(M_0 \mu_0,M_0 (1-\mu_0) )}, \nonumber 
 \end{align}
-where \textbf{B}(\cdot,\cdot) denotes the beta function.
+where \textbf{B}$(\cdot,\cdot)$ denotes the beta function.
 %Integrating over the latent variables $\theta_{ji}$ and $\mu_j$ yields the marginal distribution of the data,
 %\begin{multline}
 %p \left( r_{ji} | n_{ji} ; \mu_0, M_0, M_j \right) = \int_{\mu_j} \int_{\theta_{ji}}  p \left( r_{ji} | \theta_{ji}, n_{ji} \right) \\ p\left( \theta_{ji} | \mu_j; M_j \right) p\left( \mu_j; \mu_0, M_0 \right) d\theta_{ji} d\mu_j.
@@ -518,7 +518,7 @@ Interestingly, positions chr7:154,754,371 and chr7:154,758,813 appear to be loss
 Some of these mutations are also found to be common population SNPs according to dbSNPv138. 
 The corresponding identities are shown in the Figure~\ref{fig:brca_MAF}. The read depth distribution for positions called by RVD2 are provided in Supplementary Table 1. 
 %According to dbSNPv138 chr7:154743899 is rs1239326, chr7:154753635 is rs1239324, chr7:154754371 is rs71534174, chr7:154758813 is rs35505514, and chr7:154780960 is rs4398858.
-Karyotyping indicates that chromosome 7 in HCC1187 is tetraploid~\citep{tetraploid}.
+Karyotyping indicates that chromosome 7 in HCC1187 is tetraploid \href{http://www.path.cam.ac.uk/~pawefish/BreastCellLineDescriptions/HCC1187.html}{http://www.path.cam.ac.uk/~pawefish/BreastCellLineDescriptions/HCC1187.html}.
 
 \subsubsection{Performance comparison with other algorithms.}
 
